@@ -335,7 +335,7 @@ strong {
   </tr>
   <?php endforeach ?>
 </table>
-<script src="./membercard/classic-qr/qrcode.min.js"></script>
+<script src="./membercard/<?= basename(__DIR__) ?>/qrcode.min.js"></script>
 <script type="text/javascript">
   self.print();
 
